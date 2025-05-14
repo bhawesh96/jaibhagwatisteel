@@ -1941,6 +1941,23 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   overflow: hidden;
 }
 
+.project-img-container img {
+  height: 400px;
+  width: 400px;
+}
+
+@media (max-width: 575px) {
+  .project-img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-img-container img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
 /* .shuffle-item .project-img-container img {
   -webkit-transform: perspective(1px) scale3d(1.1, 1.1, 1);
           transform: perspective(1px) scale3d(1.1, 1.1, 1);
@@ -3499,3 +3516,7 @@ label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.ts-service-box-img img {
+  height: 60px;
+}
